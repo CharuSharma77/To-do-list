@@ -1,0 +1,56 @@
+body{
+background-color: aqua;
+}
+*
+{
+padding:0;
+margin:0;
+}
+.container{
+width:50vw;
+height:50vh;
+margin-left:23%;
+margin-top:23%;
+padding:8px;
+background-color: white;
+}
+
+input
+{
+/*margin-left:33%;*/
+overflow: hidden;
+ word-wrap: break-word;
+padding: 5px;
+display: block;
+width:97%;
+border:0;
+outline:0;
+box-shadow:0 0 2px grey;
+}
+
+ul li {
+list-style: none;
+padding:3px;
+ word-wrap: break-word;
+/*position:relative;*/
+/*margin-left:10px;*/
+text-align:justify;
+margin-top:10px;
+background-color: grey;
+color:white;
+}
+.content{
+margin-left:10px;
+
+}
+.done{
+text-decoration: line-through;
+background-color: aquamarine;
+color:black
+}
+ul li i{
+/*position: absolute;*/
+margin-right: 15px;
+float:right;
+padding:4px;
+}
